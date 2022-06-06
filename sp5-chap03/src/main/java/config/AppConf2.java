@@ -30,8 +30,8 @@ public class AppConf2 {
     @Bean
     public MemberInfoPrinter infoPrinter() {
         MemberInfoPrinter infoPrinter = new MemberInfoPrinter();
-        infoPrinter.setMemberDao(memberDao);
-        infoPrinter.setPrinter(memberPrinter);
+//        infoPrinter.setMemberDao(memberDao);
+//        infoPrinter.setPrinter(memberPrinter);
         return infoPrinter;
     }
 
@@ -40,6 +40,6 @@ public class AppConf2 {
         VersionPrinter versionPrinter = new VersionPrinter();
         versionPrinter.setMajorVersion(5);
         versionPrinter.setMinorVersion(0);
-        return versionPrinter;  
+        return versionPrinter;
     }
 }
